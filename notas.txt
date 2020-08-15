@@ -6,3 +6,12 @@ npm i @babel/core babel-loader html-webpack-plugin webpack webpack-cli webpack-d
 
 Se crea un archivo webpack.config.js
 para crear la configuracion del proyecto
+
+Luego de configurar todo, se llama el primer metodo declarado en package.json
+  "scripts": {
+    "build": "webpack --modo production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  el metodo build, con el que se crea la carpeta dist
+
+  Al terminar los templates, podemos correr start con npm run start, para ver que todo este conectado correctamente
