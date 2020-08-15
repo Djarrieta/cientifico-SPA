@@ -22,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/Djarrieta/cientifico-SPA/issues"
   },
-  "homepage": "https://github.com/Djarrieta/cientifico-SPA#readme"
+  "homepage": "https://github.com/Djarrieta/cientifico-SPA#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
 }

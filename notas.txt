@@ -1,0 +1,8 @@
+ubicar la carpeta del repositorio donde vamos a trabajar
+npm init
+
+babel vuelve compatible nuestro codigo con cualquier navegador
+npm i @babel/core babel-loader html-webpack-plugin webpack webpack-cli webpack-dev-server --save-dev
+
+Se crea un archivo webpack.config.js
+para crear la configuracion del proyecto
